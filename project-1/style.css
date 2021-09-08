@@ -1,0 +1,41 @@
+body{
+    background-image:url(assets/backgroundg.png);
+    background-size: fill;
+    /* background-repeat: no-repeat; */
+}
+
+#keyboard{
+    width:850px;
+    bottom:-20%;
+    /* bottom:50px; */
+    position: absolute;
+}
+
+#cactus{
+    width: 100%;
+    bottom:0px;
+    border:0px;
+    position: fixed;
+}
+
+#computer1{
+    width:300px;
+    left: 35%;
+    top: 25%;
+    position: absolute;
+}
+
+#computer2{
+    width:300px;
+    right:10%;
+    top:15%;
+    position:absolute;
+}
+
+#leaves{
+    position:fixed;
+    width:70%;
+    /* top:10px; */
+    bottom: 0px;
+    left: 350px;
+}
