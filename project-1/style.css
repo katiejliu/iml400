@@ -39,3 +39,9 @@ body{
     bottom: 0px;
     left: 350px;
 }
+
+#text{
+    position: fixed;
+    width: 50%;
+    top: 21%;
+}
