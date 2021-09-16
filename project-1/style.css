@@ -1,14 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
 body{
     background-image:url(assets/backgroundg.png);
     background-size: fill;
     /* background-repeat: no-repeat; */
+    cursor: url("assets/mouse.png"), auto;
+
+}
+
+#yikes{
+    position: fixed;
+    bottom: 2%;
+    width: 20%;
+    right: 5%;
 }
 
 #keyboard{
     width:850px;
     bottom:-20%;
     /* bottom:50px; */
-    position: fixed;
+    position: absolute;
 }
 
 #cactus{
@@ -22,14 +33,14 @@ body{
     width:300px;
     left: 35%;
     top: 25%;
-    position: fixed;
+    position: absolute;
 }
 
 #computer2{
     width:300px;
     right:10%;
     top:15%;
-    position:fixed;
+    position:absolute;
 }
 
 #leaves{
@@ -45,3 +56,33 @@ body{
     width: 50%;
     top: 21%;
 }
+
+.screen{
+    z-index: 3;
+    position:fixed;
+    top:20%;
+    left:5%;
+    right:5%;
+}
+
+marquee {
+    position: absolute;
+    bottom: 0px;
+    height: 100%;
+}
+
+#bgtext{
+    font-size:20px;
+    margin-left: 0%;
+    text-align:center;
+    color:white;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.text{
+    color:white;
+    font-family: 'Bungee Inline', cursive;
+    margin-left: 2%;
+    margin-top:2%;
+}
+
