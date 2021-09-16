@@ -25,7 +25,7 @@ $(document).ready(function () {
   
   $(function () {
     $(
-      "#computer1, #keyboard, #computer2"
+      "#computer2"
     ).draggable();
 
   });
